@@ -1,0 +1,17 @@
+1.I managed to understand how recursion works in this lab. I also managed to change code so various parameters can be changed. One thing that was hard to do was trace the recursion as it gets really complicated. I found that using recursion trees to trace the code which helped me understand how it was working.
+
+2.
+The questions answered here are answered if the command towers(5,2,3) is invoked. 
+1. The code will try to solve the hanoi problem for n-1 disks. In this case, it will be n-1 disks.
+towers (4,2,3)
+
+2.There will be 61 recursive calls made.
+
+3. 2 3 will be printed to stdout. Move #1: was From Tower 2 to Tower 3.
+
+4. towers (3,2,3)
+
+The questions answered here are answered if the command towers(8,1,2) is invoked. 
+There will be 255 lines printed to stdout.
+
+By Meher Bhagat

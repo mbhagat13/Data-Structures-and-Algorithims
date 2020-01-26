@@ -1,0 +1,59 @@
+# include "stdio.h"
+#include "mySort.h"
+
+void mySort(int array[], unsigned int first, unsigned int last)
+    {
+	int mid =0;
+	int i =  0;
+	//int j= 0;
+	//int k = 0;
+	int leftSide[999999] ;
+	//int rightSide[999999] ;
+	
+
+if( first < last){       
+ mid = (first+last)/2;
+  mySort(array, first,mid);                                                                                                                                                                                                                 
+   mySort(array, mid+1, last);
+
+for ( i =0; i < (mid-first+1);i++){
+
+leftSide[i] = array[i+first];
+        fprintf(stdout, "\n%d", leftSide[i]);
+}
+
+
+/*
+for ( j =0; j < (last-mid);j++){
+
+rightSide[j] = array[j+ mid+1];
+ fprintf(stdout, "\n%d", rightSide[j]);
+}
+
+leftSide[mid-first+1]=999999;
+rightSide[last-mid]=999999;
+
+i =0;
+j = 0;
+
+
+
+
+for (k = first; k<= last; k++){
+if (myCompare (leftSide[i],rightSide[j])<0){
+myCopy(&leftSide[i],&array[k]);
+i++;
+}else{
+myCopy(&rightSide[j],&array[k]);
+j++;
+}
+
+
+}
+
+*/
+
+}//main if
+                                                                                                                                                                                                              
+
+    }//method

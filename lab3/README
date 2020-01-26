@@ -1,0 +1,36 @@
+1. In this lab, an implentation of Insertion Sort were successfully created. Insertion Sort was made in the same manner as it was in lab 1. Merge Sort on the other hand was made using recursive functions.
+
+2.
+Insertion Sort
+Anaylzing the insertion sort method, two types of situations must be considered.
+
+The best case assumes that the data is perfectly sorted. 
+Analyzing the the complexity of this scenario, the best case was found to be n (linear complexity). 
+
+Formulas, for comparisons, swaps and copies:
+Comparisions: (n-1)
+Swaps:0
+Copy Operations:(2)(n-1)
+
+The worst case assumes that the data is sorted in the most inefficent manner. 
+Analyzing the the complexity of this scenario, the worst case was found to be n^2 (quadratic complexity). 
+
+Formulas, for comparisons, swaps and copies:
+Comparisions: n(n-1)/2
+Swaps:n(n-1)/2
+Copy Operations:2(n-1)+(n)(n-1)/2
+
+Merge Sort
+
+For merge Sort, the complexity for the worst and best case was found to be n(logn).
+This was tested be entering a different amount of elements to be sorted where the elements were sorted in a best case scenario, and then a worst case scenario.
+No matter if the data was sorted in a best case or worst case scenario, the number of comparisions and the number of copies always stayed the same.
+An interesting thing about merge sort is that there was no swapping done to sort the data. 
+I believe this is why the complexity is constant for all types of cases.
+
+Formulas, for comparisons, swaps and copies for both best and worst cases:
+Comparisions: no forumla could be deduced, overall pattern is the number of comparisions increases as n increases.
+Swaps:0
+Copy Operations: 2*(the number of comparisions)
+
+By: Meher Bhagat

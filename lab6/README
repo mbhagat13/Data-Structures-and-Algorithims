@@ -1,0 +1,11 @@
+
+This lab was successful as the intended results were achieved. 
+The hardest part of this lap was implementing the max heapify. This is because the heap must be traversed from the top to the bottom and the bottom to the top.
+To distinguish this process, an additional boolean variable was created to idntify the type of procedure that was occuring.
+Once this was done, the lab was mostly straight forward, easy to understand and easy to implement.
+
+
+All work done in this lab is done by myself or using the pseudocode.
+
+Name: Meher Bhagat
+SN: 500714429

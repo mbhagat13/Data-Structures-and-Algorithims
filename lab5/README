@@ -1,0 +1,70 @@
+Summarize your lab:
+This lab was fairly successful. All requirements stated in the lab manual were met to finish this lab.
+  Part 1:
+     Is working without any glitches or problems
+     
+  Part 2:
+     Is working without any glitches or problems
+  
+  Part 3:
+     Is working without any glitches or problems   
+
+	 
+***ANSWERS TO QUESTIONS***
+ Question 1:
+     Which hash table collision resolution method did you use
+     (eg. chaining or open addressing)? Explain your choice
+     briefly (less than 25 words).
+ YOUR ANSWER:
+		My choice was open addressing. Copmaring both methods, I found open addressing
+		a lot eaiser to implement rather then chaining as it is simplier for smaller input
+		sizes.
+ 
+ 
+ 
+ Question 2:
+       Which hash function (division or multiplication) did you use?
+       How did you convert a string into a number?
+ YOUR ANSWER:
+		The hash function used in the code is the division method. 
+		To convert a string into a number in the hash table, the following formula
+		was used: sum%size. Sum was the integer sum of all the characters of the tag
+		and size was the hash table size. If a spot was occupied, the next spot was used
+		to store the data. This process was repeated over and over again until an open spot
+		was found for the string.
+
+ 
+ 
+ 
+ Question 3:
+       Another legal XML tag not used in this lab is the
+       stand-alone tag.  This kind of tag
+       combines both a start-tag and end-tag in one.
+       It is identified with a '/' (slash) preceding the
+       final >.  (For example, the <foo/>
+       is a stand-alone tag that is self balancing.
+       
+       Describe briefly how
+       you would modify Part 3 to allow this kind of tag.
+	   
+       
+ YOUR ANSWER:
+	In the part 3 main code, a series of changes would be needed to be implemented
+	in the algorithim. As there are cases for a push sceneraio(the string itself) 
+	and a pop scenario ('/'), a third case would be established for this problem.
+	This case would be the following:
+	
+	1.A start tag would need to be detected
+	2.Then a character would need to be detected
+	3.Next, the input would have to traversed and stored
+	4. When the input gets to '/', this is when the program would identify this as a new case
+	5. First the input must be pushed in the exact same way it was done earlier when it only detected a string
+	6. Then the output must be popped, once again, in the same was done earlier when it detected a string with the end tag
+	
+	By, doing this, it can be ensured that the programing is accounting for the 
+	input of this stand-alone tag. This new method can be implemented based on these steps.
+	
+	
+
+  
+  

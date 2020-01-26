@@ -1,0 +1,9 @@
+1. The function can be written better by finding the starting and ending indexes to pass into the betterSort function. The starting index of the array to be sorted would obviously be 0. The last index would be the (n-1) in the sort function. Therefore the array, first integer, and last integer could all be passed into the betterSort function to efficiently sort the data. The code for mySort would be similar to the following:
+
+void mySort(int d[], unsigned int n)
+{
+int first = 0;
+int last = n-1;
+betterSort(d,first,last);
+
+}
